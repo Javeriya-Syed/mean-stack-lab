@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table align="center">
+        <tr>
+            <td>Enter city:</td>
+            <td>
+    <input list="citys" name="city" id="city">
+    <datalist id="citys">
+        <option value="Hyderabad">
+        <option value="Bangalore">
+        <option value="Mumbai">
+        <option value="Chennai">
+        <option value="">
+    </datalist>
+</td>
+</tr>
+<tr>
+    <td>Select Branch:</td>
+    <td>
+    <select id="branch">
+        <option value="select">----select branch----</option>
+        <option value="cse">cse</option>
+        <option value="ece">ece</option>
+    </select>
+</td>
+</tr>
+<tr>
+    <td>Select color:</td>
+    <td>
+        <input type="color" id="txtclr">
+    </td>
+</tr>
+<tr>
+<td>DOB</td>
+<td>
+    <input type="date" id="iddate">
+</td>
+</tr>
+</table>
+</body>
+</html>
