@@ -18,3 +18,13 @@
    
 </body>
 </html>
+
+
+program:
+ const pi=3.14;
+    function findarea(r){
+        return pi*r*r;
+    }
+    let r=9;
+    var area=findarea(r);
+    document.writeln(area);
