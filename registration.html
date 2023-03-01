@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .divreg{
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            max-width: 500px;
+            background-color: lightblue;
+            transform: translate(-50%,-50%);
+            border-radius: 4px;
+        }
+        input[type=text],[type=password],select{
+            width: 100%;
+            padding: 12px 20px;
+            border: 1px solid#ccc;
+            border-radius: 2 px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="divreg">
+        <table>
+            <tr>
+                <td>
+                    <input type="text" id="txtuser" placeholder="Username">
+                </td>
+                <td>
+                    <input type="password" id="txtpwd" placeholder="Password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="txtpin" placeholder="Pincode">
+                </td>
+                <td>
+                    <input type="text" id="txtlct" placeholder="Location">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea cols="65" rows="6" placeholder="Address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="txtct" placeholder="city">
+                </td>
+                <td>
+                    <select id="txtsct" id="txtsct">
+                        <option>---select---</option>
+                        <option>Andhra Pradesh</option>
+                        <option>Telangana</option>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="txtldm" placeholder="Landmark">
+                </td>
+                <td>
+                    <input type="text" id="txtphn" placeholder="phone">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Address:</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="txthm" >Home address</td>
+                    <td>
+                    <input type="radio" id="txtwrk" >Work address
+            </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit"  value="submit"/>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
